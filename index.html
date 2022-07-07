@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Puzzles</title>
+</head>
+
+<body>
+
+    <div id="app">
+        <audio class="toneStart">
+            <source> src="audio/toneStart.mp3">
+        </audio>
+
+        <div class="home_screen">
+            <div class="home_title">
+                <p class="home_subtitle">Давай зберемо декілька Українських марочок ;) </p>
+                
+                <div id="sound1"><img src="images/sound_on.png" alt="sound"></div>
+            </div>
+
+            <div class="stamp_container">
+
+                <div id="1" class="stamp_item stamp1"></div>
+                <div id="2" class="stamp_item stamp2"></div>
+                <div id="3" class="stamp_item stamp3"></div>
+                <div id="4" class="stamp_item stamp4"></div>
+                <div id="5" class="stamp_item stamp5"></div>
+
+            </div>
+        </div>
+
+
+        <!-- Игровой экран -->
+        <div class="game_screen">
+            <div class="container">
+
+                <!-- Header -->
+                <header class="header">
+
+                    <div id="help">
+                        <img src="images/eye.png" alt="">
+                    </div>
+
+                    <div id="strokeCounter__title">
+                        <p id="strokeCounter">Зроблено кроків: 0</p>
+                    </div>
+
+                    <div id="sound2">
+                        <img src="images/sound_on.png" alt="">
+                    </div>
+                </header>
+
+                <!-- Main -->
+                <main class="main">
+
+                    <div id="help-screen"></div>
+
+                    <ul id="cards"></ul>
+
+                    <div id="final_screen"></div>
+
+                </main>
+
+                <!-- Footer -->
+                <footer class="footer">
+                    <a id="menu" href="#">Меню</a>
+                    <a id="start" href="#">Перемішати</a>
+                </footer>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
